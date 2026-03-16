@@ -1,13 +1,24 @@
 {
-  "name": "ai-calendar-plugin",
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "kdmin3318-ai-calendar-plugin",
+  "description": "Personal Google Calendar assistant with time tracking for Claude Code",
   "owner": {
-    "name": "kdmin3318"
+    "name": "kdmin3318",
+    "email": "kdmin3318@gmail.com"
   },
   "plugins": [
     {
       "name": "ai-calendar-plugin",
       "description": "Personal calendar assistant with time tracking. Manage schedules and track daily activities via Google Calendar.",
-      "source": "."
+      "author": {
+        "name": "kdmin3318"
+      },
+      "source": {
+        "source": "url",
+        "url": "https://github.com/kdmin3318/ai-calendar-plugin.git"
+      },
+      "category": "productivity",
+      "homepage": "https://github.com/kdmin3318/ai-calendar-plugin"
     }
   ]
 }
