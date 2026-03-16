@@ -1,8 +1,8 @@
 {
   "name": "ai-calendar-plugin",
   "description": "Personal calendar assistant with time tracking. Manage schedules and track daily activities via Google Calendar.",
-  "version": "0.1.0",
   "author": {
-    "name": "kdmin3318"
+    "name": "kdmin3318",
+    "email": "kdmin3318@gmail.com"
   }
 }
