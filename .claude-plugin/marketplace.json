@@ -1,9 +1,16 @@
 {
+  "name": "ai-calendar-plugin",
+  "owner": {
+    "name": "kdmin3318"
+  },
   "plugins": [
     {
       "name": "ai-calendar-plugin",
       "description": "Personal calendar assistant with time tracking. Manage schedules and track daily activities via Google Calendar.",
-      "path": "."
+      "source": {
+        "type": "github",
+        "repo": "kdmin3318/ai-calendar-plugin"
+      }
     }
   ]
 }
