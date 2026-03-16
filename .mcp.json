@@ -1,0 +1,14 @@
+{
+  "mcpServers": {
+    "google-calendar": {
+      "type": "stdio",
+      "command": "python",
+      "args": ["server/server.py"],
+      "env": {
+        "CREDENTIALS_PATH": "credentials.json",
+        "TOKEN_PATH": "token.json",
+        "TIMEZONE": "Asia/Seoul"
+      }
+    }
+  }
+}
