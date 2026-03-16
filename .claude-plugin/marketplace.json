@@ -1,0 +1,9 @@
+{
+  "plugins": [
+    {
+      "name": "ai-calendar-plugin",
+      "description": "Personal calendar assistant with time tracking. Manage schedules and track daily activities via Google Calendar.",
+      "path": "."
+    }
+  ]
+}
